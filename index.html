@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="main.css" />
     <script src="main.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
   </head>
-  <body>
+  <body class=" bg-slate-100">
     <h1 class="text-center h-6">Play Rock Paper Scissors</h1>
-    <div class="flex items-center justify-center space-x-1 rounded-lg bg-slate-100 p-0.5">
+    <div class="flex items-center justify-center space-x-1 rounded-lg p-0.5">
       <a
         class="flex items-center rounded-md py-[0.4375rem] pl-2 pr-2 text-sm font-semibold lg:pr-3 bg-white shadow"
         href="#"
@@ -38,12 +40,15 @@
 
     <div class="flex items-center justify-center">
       <div>
-
         <h1>Wins: <span id="txt_wins"></span></h1>
         <h1>Losses: <span id="txt_losses"></span></h1>
         <h1>Draws: <span id="txt_draws"></span></h1>
       </div>
     </div>
+
+    <a href="https://github.com/jbarreraballestas/rock-paper-scissors/" target="_blank" rel="noopener noreferrer" id="source" class="rouded-pill">
+      <i class="devicon-github-original colored text-7xl"></i> 
+    </a>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
   </body>
 </html>
